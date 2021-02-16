@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html{
+  font-size: 62.5%;
+  background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+  height: 100vh;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.banner{
+  display: grid;
+  position:absolute;
+  width: 100vw;
+  min-height: 50vh;
+  min-height: 50vh;
+  columns: 1fr 1fr;
+  border-color: red;
+  background-color: white;
+  z-index: 0;
+  clip-path: polygon(100% 0, 100% 21%, 100% 60%, 100% 100%, 0 100%, 0 100%, 36% 0);
+  background-image: url(https://i.postimg.cc/xd1bNz4R/banner.png);
+  background-repeat: round;
+  z-index: -1;
 }
-
-.App-link {
-  color: #61dafb;
+.my-name{
+  position:absolute;
+  color: rgb(247, 169, 0);
+  font-size: 7rem;
+  padding-left: 6rem;
+   z-index: 1;
+  font-family: 'IBM Plex Serif', serif;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.separador{
+  width: 100%;
+  height: 50vh;
+}
+.separador_img{
+  z-index: 1;
+  float: right;
+  border-radius:50%;
+  margin: 1rem;
+  width: 9vw;
 }

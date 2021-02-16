@@ -1,0 +1,23 @@
+.Main-header{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.261);
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    min-height: 10vh;
+   position:sticky;
+}
+.navbar{
+    margin: 2rem;
+}
+.navbar__li , a{
+    font-size: 2.5rem;
+    list-style: none;
+    color: white;
+}
+a{
+    text-decoration: none;
+    border-bottom: 1px solid rgb(247, 169, 0);
+}
