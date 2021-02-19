@@ -1,0 +1,31 @@
+@media (min-width: 960px){
+    .my-name{
+        font-size:5rem;
+        padding-left: 7rem; 
+    }
+    .separador{
+        height: 50vh;
+    }
+    .banner{
+        height: 50vh;
+    }
+     
+    .myself__p{
+        font-size: 3rem;
+        line-height: 4.5rem;
+        text-align: justify;
+        width: 100vw;
+    }
+    .container__h1{
+        font-size: 6rem;
+        width: auto;
+    }
+    .profile__img{
+        width: 18vw;
+        margin-top: 3rem;
+        margin-right: 1.5rem;
+    }
+    .container__technologies{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

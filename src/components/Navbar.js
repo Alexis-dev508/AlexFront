@@ -11,7 +11,7 @@ export default class Navbar extends Component{
             <div className="navbar" >
                 <li className="navbar__li"><Link to={this.props.path}>
                     {this.props.title}
-                    </Link></li >   
+                    </Link></li >
             </div>
         );
     }

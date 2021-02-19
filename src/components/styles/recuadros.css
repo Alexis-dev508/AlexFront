@@ -4,7 +4,7 @@
     max-width: 25rem;
     max-height: 25rem;
 }
-.container{
+.container, .container__technologies{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -13,12 +13,14 @@
     justify-content: center;
     margin: 0 auto;
 }
+
 .recuadro{
     margin: 2rem;
     color: white;
-    font-size: 2rem;
+    font-size: 2.3rem;
 }
 .range{
+    margin-top: 2rem;
     height: 20px;
     width: 100%;
     background-color: #f1f1f1;

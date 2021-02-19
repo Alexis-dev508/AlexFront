@@ -12,7 +12,6 @@ export default class Recuadros extends Component{
                     <img src={this.props.src} alt={this.props.alt}/>
                     <figcaption>{this.props.figcaption}</figcaption>
                 </figure>
-
                 <div>
                <p>{this.props.title}</p> <input className="range" type="range" defaultValue={this.props.value} disabled ></input>
                 </div>

@@ -11,7 +11,6 @@ html{
   height: 100vh;
 }
 .banner{
-  display: grid;
   position:absolute;
   width: 100vw;
   min-height: 50vh;
@@ -19,9 +18,8 @@ html{
   columns: 1fr 1fr;
   border-color: red;
   background-color: white;
-  z-index: 0;
   clip-path: polygon(100% 0, 100% 21%, 100% 60%, 100% 100%, 0 100%, 0 100%, 36% 0);
-  background-image: url(https://i.postimg.cc/xd1bNz4R/banner.png);
+  background-image: url(https://i.postimg.cc/fRTrzh6r/banner.png);
   background-repeat: round;
   z-index: -1;
 }
@@ -29,18 +27,45 @@ html{
   position:absolute;
   color: rgb(247, 169, 0);
   font-size: 7rem;
-  padding-left: 6rem;
-   z-index: 1;
+  padding-left: 9rem;
+  z-index: 1;
   font-family: 'IBM Plex Serif', serif;
 }
 .separador{
   width: 100%;
   height: 50vh;
 }
-.separador_img{
+.profile__img{
   z-index: 1;
   float: right;
   border-radius:50%;
-  margin: 1rem;
+  margin: 3rem;
   width: 9vw;
+}
+.container__h1{
+  color: white;
+  font-size: 5rem;
+  padding: 5rem 2rem;
+  width: 100vw;
+
+}
+.myself__p{
+  color: white;
+  font-size: 3rem;
+  max-width: 70%;
+  line-height: 5rem;
+  text-align: justify;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+p ol img{
+  display: flex;
+  border-radius: 1rem;
+  margin: 4rem auto;
+  width: 20vw;
+}
+.container__technologies{
+  display: grid;
+  grid-template-columns: 1fr;
 }
