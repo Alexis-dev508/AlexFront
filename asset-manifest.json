@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AlexFront/static/css/main.aaf40dbd.chunk.css",
+    "main.css": "/AlexFront/static/css/main.a223c939.chunk.css",
     "main.js": "/AlexFront/static/js/main.b5824ba7.chunk.js",
     "main.js.map": "/AlexFront/static/js/main.b5824ba7.chunk.js.map",
     "runtime-main.js": "/AlexFront/static/js/runtime-main.dbf4ebf9.js",
@@ -10,14 +10,14 @@
     "static/js/3.ed1a366d.chunk.js": "/AlexFront/static/js/3.ed1a366d.chunk.js",
     "static/js/3.ed1a366d.chunk.js.map": "/AlexFront/static/js/3.ed1a366d.chunk.js.map",
     "index.html": "/AlexFront/index.html",
-    "static/css/main.aaf40dbd.chunk.css.map": "/AlexFront/static/css/main.aaf40dbd.chunk.css.map",
+    "static/css/main.a223c939.chunk.css.map": "/AlexFront/static/css/main.a223c939.chunk.css.map",
     "static/js/2.7c4d0619.chunk.js.LICENSE.txt": "/AlexFront/static/js/2.7c4d0619.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/AlexFront/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.dbf4ebf9.js",
     "static/js/2.7c4d0619.chunk.js",
-    "static/css/main.aaf40dbd.chunk.css",
+    "static/css/main.a223c939.chunk.css",
     "static/js/main.b5824ba7.chunk.js"
   ]
 }
